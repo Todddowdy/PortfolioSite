@@ -1,0 +1,46 @@
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.container img {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.contact-me {
+    position: absolute;
+    bottom: 20%;
+    left: 8%;
+    width: auto;
+    background-color: #38b6ff;
+    color: black;
+    font-size: min(1.5vw, 0.8rem);  
+    padding: min(1vw, 0.75em) min(2vw, 1.2em);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    max-width: 20%;
+    z-index: 2;
+}
+
+.contact-me:hover {
+    background-color: white;
+}
+
+.contact-me-flow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    border-radius: 10px;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 10px 5px 5px rgb(0, 0, 0.5);
+    z-index: 3;
+}
